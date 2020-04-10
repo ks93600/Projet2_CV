@@ -1,0 +1,469 @@
+/* Définition des polices personnalisées */
+
+@font-face {
+    font-family: 'Aleo-Regular-webfont';
+    src: url('aleo/Aleo-Regular-webfont.ttf') format('truetype'),
+         url('aleo/Aleo-Regular-webfont.svg') format('svg'),
+         url('aleo/Aleo-Regular-webfont.woff') format('woff'),
+         url('aleo/Aleo-Regular-webfont.eot') format('eot');
+
+    
+}
+/* Eléments principaux de la page */
+
+
+#bloc
+{
+display:flex;
+width: 1250px;
+margin: auto;
+border: 1px solid black
+
+}
+
+body
+{font-family: 'Aleo-Regular-webfont', arial,sans-serif;
+ margin-top: 0px;
+ margin: 0px;
+}
+ 
+#droite
+{
+  width: auto;
+
+}
+
+/* aside */
+
+.image
+{
+
+  margin-top: 50PX;
+  text-align: center;
+
+
+}
+
+aside
+{ 
+
+  background-color: #FF7043;
+
+}
+
+aside mark
+{
+ background-color: #F9A825;
+ color: #FF7043;
+ 
+}
+
+h2,p
+
+{
+ height: 100%;
+
+
+}
+
+aside h2
+{
+ background-size: cover;
+ background-color: #F9A825;
+ text-align: center;	
+}
+
+
+
+img
+{
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    box-shadow: 6px 6px 6px black ;
+}
+
+.contenu
+{
+  font-size: 0.8em;
+  margin: 17px;
+  line-height: 9px;
+
+}
+
+
+.propos p
+{ 
+ text-align: justify;
+ word-wrap: break-word;
+ margin: 35px;
+ margin-bottom: 350px;
+ 
+ 
+}
+
+.loisir
+{
+  text-align: center;
+
+}
+
+.loisir img
+
+{ 
+  height: 50px;
+  width: 50px;
+  margin: 10px;
+}
+
+
+
+/* Header */
+
+header
+{
+ width:35%;
+ height:12%;
+ background-color: white;
+ text-align:left; 
+}
+
+header, h1 h2
+{
+ margin-top: 70px;
+ margin-left: 25px;
+
+}
+header .image
+{
+  display: none;
+}
+h1 mark
+ {
+  background-color: white;
+  color: #FF7043;
+ }
+
+h2 mark
+{   
+
+  border-bottom: 1px solid #FF7043;
+
+}
+
+mark
+{
+ background-color: white;
+}
+
+/* section */
+
+section h2
+{
+ margin-left: 40px;
+ border-bottom:solid 3px #FF7043;
+ max-width: 75%;
+} 
+
+
+section h3
+{
+  margin-right: 160px;
+  font-size: 0.7em;
+}
+
+
+section img
+{
+  width: 30px;
+  height: 30px;
+  box-shadow: none;
+  margin-right:12px;
+}
+
+
+.fas
+{
+  margin-right:10px;
+  color: #FF7043;
+}
+
+li .fas
+{
+    margin-right: 12px;
+   margin-top: 20px;
+   font-size: 0.5em; 
+}
+
+.far
+{
+  color: #FF7043;
+  margin-right: 12px;
+  margin-top: 20px;
+  font-size: 0.6em;
+}
+
+
+strong p
+{
+font-weight: bold;
+
+}
+
+.FORMATION
+{
+  margin-bottom:30px;
+}
+
+.FORMATION li 
+{
+  display: flex;
+  justify-content:space-between;
+  margin-right:300px;
+  line-height: 15px;
+  margin-bottom: 5px;
+
+}
+.FORMATION p
+{
+  text-align: justify;
+  width: 400PX;
+  font-size:0.8em;
+}
+
+
+.Experience
+{
+   margin-bottom:30px;
+
+}
+
+.Experience p
+{
+   text-align: justify;
+  width: 400PX;
+  font-size:0.8em;
+}
+
+.Experience li
+{
+  display: flex;
+  justify-content:space-between;
+  margin-right:300px;
+  line-height: 15px;
+  margin-bottom: 5px;
+}
+
+.recommandations  
+{
+  text-align:left;
+  margin: 15px;
+  font-size:0.8em;
+} 
+
+.rec,.rec2
+{
+  display: inline-block;
+  vertical-align: top;
+  width: 33%;
+  padding-left:33px;
+}
+
+
+@media screen and (max-width: 959px)
+{
+
+#bloc
+{
+display:flex;
+width:100%;
+flex-direction:column-reverse;
+justify-content:center;
+border: none;
+}
+
+ 
+#droite
+{
+  width: 90%;
+
+}
+
+
+header .image
+{
+  display: contents;
+}
+
+header
+{
+ text-align: center;
+ width: 100%;
+
+}
+
+section h2
+{
+ text-align:center;
+ border-bottom:solid 3px #FF7043;
+ max-width:100%;
+} 
+
+section h3
+{
+  margin-right: 40px;
+  font-size: 0.7em;
+}
+
+
+.FORMATION li 
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  width: 100%;
+
+}
+
+
+.Experience li
+{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ width: 100%;
+}
+
+.recommandations  
+{
+  text-align:center;
+  margin: 15px;
+  width: 100%;
+} 
+
+.rec,.rec2
+{
+  display: inline-block;
+  vertical-align: top;
+  width: 33%;
+  padding-left:33px;
+}
+
+aside
+{ 
+  max-width: 100%;
+  height: 100%;
+  background-color: #FF7043;
+
+}
+
+aside .image
+{
+  display: none;
+
+}
+
+.contenu
+{
+  font-size: 0.8em;
+  margin: 17px;
+  line-height: 9px;
+  text-align: center;
+}
+
+
+.loisir img
+
+{ 
+  height: 50px;
+  width: 50px;
+  margin: 10px;
+
+}
+.loisir
+{
+  text-align: center;
+
+}
+
+
+.propos p
+{ 
+ text-align: justify;
+ word-wrap: break-word;
+ margin: 35px;
+
+ 
+ 
+}
+
+}
+@media screen and (max-width: 659px)
+{
+
+
+aside
+{ 
+  max-width:100%;
+  height: 100%;
+  background-color: #FF7043;
+
+}
+
+
+.FORMATION li
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.Experience li
+{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ width: 100%;
+}
+
+.recommandations  
+{
+  text-align:center;
+  margin: 15px;
+  width: 100%;
+} 
+
+
+h3
+{
+ text-align: center;
+}
+
+li .fas
+{
+    margin-right: 40px;
+   margin-top: 20px;
+   font-size: 0.5em; 
+}
+
+.far
+{
+  color: #FF7043;
+  margin-right: 40px;
+  margin-top: 20px;
+  font-size: 0.6em;
+}
+
+.rec,.rec2,h4
+{
+
+text-align: center;
+width: 100%;
+}
+}
